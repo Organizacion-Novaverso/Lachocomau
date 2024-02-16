@@ -4,7 +4,7 @@ import NuestrasCategorias from "./NuestrasCategorias"
 import Contacto from "./Contacto"
 
 
-function Header() {
+function Main() {
   return (
     <>
       <h1 className="text-6xl text-red-700">La Chocomau</h1>
@@ -18,4 +18,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Main
