@@ -1,8 +1,11 @@
 
-function Navbar() {
+import Información from './Información'
+
+ function Navbar() {
   return (
-    <h2>Navbar</h2>
+    <>
+    <Información/>
+    </>
   )
 }
-
 export default Navbar
