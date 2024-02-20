@@ -3,7 +3,7 @@ function Bienvenido() {
   return (
     <div className="flex">
       <div>
-        <h3>Bienvenidos</h3>
+        <h3>Bienvenidos Juan</h3>
       </div>
       <img src="" alt="" />
     </div>
