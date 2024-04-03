@@ -21,7 +21,7 @@ export default function Contacto() {
             action="URL_DE_DESTINO_DEL_FORMULARIO"
             method="POST"
           >
-            <div className="relative mb-4">
+            <div className="relative mb-4 ">
               <input
                 type="text"
                 id="Nombre"
@@ -66,21 +66,20 @@ export default function Contacto() {
               />
             </div>
 
-            <div className="relative mb-4">
+            <div className="relative mb-4 text-[#8e8e8e] ">
               <select
                 id="Motivo"
                 name="Motivo"
-                placeholder="Correo"
+                placeholder="Motivo"
                 required
                 className="rounded-3xl w-full bg-white border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 style={{
-                  paddingTop: "0.5rem",
+                  // paddingTop: "0.5rem",
                   boxShadow: "inset 0 2px 5px rgba(0, 0, 0, 0.2)",
                 }}
               >
-                <option value="" className="text-gray-700">
-                  Motivo
-                </option>
+               
+                <option selected="true" disabled="disabled">Motivo</option>
                 <option value="1" className="text-[#372418]">
                   Felicitaciones
                 </option>
@@ -91,7 +90,14 @@ export default function Contacto() {
                   Reclamo
                 </option>
               </select>
+
+
+
+
+
             </div>
+
+
 
             <div className="relative mb-4">
               <label
