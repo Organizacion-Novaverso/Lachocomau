@@ -1,6 +1,7 @@
 import Bienvenido from "./Bienvenido"
 import ProductosVendidos from "./ProductosVendidos"
 import NuestrasCategorias from "./NuestrasCategorias"
+import NuestrasCategorias2 from "./NuestrasCategorias2"
 import Contacto from "./Contacto"
 
 
@@ -13,6 +14,7 @@ function Main() {
    <Bienvenido />
    <ProductosVendidos/>
    <NuestrasCategorias/>
+   <NuestrasCategorias2/>
       <Contacto/>
     </>
   )
