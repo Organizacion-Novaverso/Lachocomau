@@ -7,10 +7,10 @@ export default function NuestrasCategorias() {
   const imageList = Array.from({ length: 18 }, (_, i) => `img/imagen${i + 1}.png`);
   const [startIndex, setStartIndex] = useState(0);
   const [isFirstPage, setIsFirstPage] = useState(true);
-
+  const [NombreCategoria, setNombreCategoria] = useState(["Bombones", "Tortas", "Cupcakes", "Galletas", "Alfajores", "Chocolates", "Mini donas", "Waffles", "Masas dulces", "Cajas mixtas", "Candy bar", "Personalizados"])
   // Seleccionar los siguientes 6 elementos de imageList
   const selectedImages = imageList.slice(startIndex, startIndex + 6);
-
+  const selectedNombres = NombreCategoria.slice(startIndex, startIndex + 6);
   //const [mostrarTodasLasImagenes, setMostrarTodasLasImagenes] = useState(false);
 
   //const mostrarImagenes = mostrarTodasLasImagenes ? imageList : imageList.slice(0, 6);
@@ -25,6 +25,10 @@ export default function NuestrasCategorias() {
       setIsFirstPage(true);
     }
   };
+
+
+  
+
   return (
     <div className='flex flex-col items-center justify-center min-h-screen bg-[#FAC4C4]'>
       <div className='text-3xl font-bold mb-4 text-brown'>Nuestras </div>
@@ -32,13 +36,21 @@ export default function NuestrasCategorias() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3 justify-center mb-8">
         {selectedImages.map((image, index) => (
           <>
-            <div key={index} className="w-48 h-48 md:w-64 md:h-64 lg:w-64 lg:h-64 xl:w-64 xl:h-64 rounded-lg  overflow-hidden  ">
-              <img
-                src={`./${image}`}
-                alt={`Imagen ${index + 1}`}
-                className=" object-cover w-full h-full  transform hover:scale-110 transition-transform duration-300 ease-in-out"
-              />
+            <div >
+              <figure key={index} className="relative w-48 h-48 md:w-64 md:h-64 lg:w-64 lg:h-64 xl:w-64 xl:h-64 rounded-lg  overflow-hidden  ">
+                <img
+                  src={`./${image}`}
+                  alt={`Imagen ${index + 1}`}
+                  className=" object-cover w-full h-full  transform hover:scale-110 transition-transform duration-300 ease-in-out"
+                />
+                <figcaption className="bg-brown font-bold bottom-0 left-0 right-0 justify-center absolute text-3xl text-white text-center" style={{ textShadow: "0 0 2px black" }}>
+                 
+                    <div>{selectedNombres[index]}</div>
+               
+                </figcaption>
+              </figure>
             </div>
+
 
           </>
         ))}

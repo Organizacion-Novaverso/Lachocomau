@@ -9,6 +9,8 @@ export default {
       colors: {
         pinkShadow: '#A3A0A0', 
         brown: '#372418',
+        //pink: '#F78A8B'
+
       },
     },
   },
