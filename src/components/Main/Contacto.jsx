@@ -1,9 +1,23 @@
 import React from "react";
+import Separacion from "./Separacion"
 
 export default function Contacto() {
+ 
+
+// Realizar validación formulario con js
+
   return (
-    <div>
-      <section className="text-gray-600 body-font relative bg-[#372418]">
+
+// Se crea un div y se poner el color de fondo
+
+    <div className="bg-[#372418]">
+
+{/* Llama a el componente Separacion */}
+
+
+<Separacion fillColor="#FAC4C4" />
+
+      <section className="text-gray-600 body-font relative ">
         <h1 className="text-neutral-50 text-4xl pt-10 font-medium title-font text-center font-bold">
           Contáctanos
         </h1>
