@@ -1,10 +1,10 @@
 import { useState } from 'react'
-
+import Separacion from "./Separacion"
 // Obtén la lista de imágenes desde la carpeta public/images
 
 
 export default function NuestrasCategorias() {
-  const imageList = Array.from({ length: 18 }, (_, i) => `img/imagen${i + 1}.png`);
+  const imageList = Array.from({ length: 12 }, (_, i) => `img/imagen${i + 1}.png`);
   const [startIndex, setStartIndex] = useState(0);
   const [isFirstPage, setIsFirstPage] = useState(true);
   const [NombreCategoria, setNombreCategoria] = useState(["Bombones", "Tortas", "Cupcakes", "Galletas", "Alfajores", "Chocolates", "Mini donas", "Waffles", "Masas dulces", "Cajas mixtas", "Candy bar", "Personalizados"])
@@ -30,7 +30,10 @@ export default function NuestrasCategorias() {
   
 
   return (
+    <div className='bg-[#FAC4C4]'>
+    <Separacion fillColor="#EEEDED"/>
     <div className='flex flex-col items-center justify-center min-h-screen bg-[#FAC4C4]'>
+    
       <div className='text-3xl font-bold mb-4 text-brown'>Nuestras </div>
       <div className='text-5xl font-bold mb-8 text-white  drop-shadow-[2px_3px_var(--tw-shadow-color)] shadow-pinkShadow '>Categorias</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3 justify-center mb-8">
@@ -50,8 +53,6 @@ export default function NuestrasCategorias() {
                 </figcaption>
               </figure>
             </div>
-
-
           </>
         ))}
       </div>
@@ -61,6 +62,8 @@ export default function NuestrasCategorias() {
       {startIndex + 6 < imageList.length && (
         <button className="mb-4 bg-custom-color-brown text-white font-bold py-2 px-4 rounded-full" onClick={handleVerMasClick}>Siguiente</button>
       )}
+    </div>
+ 
     </div>
   )
 }
