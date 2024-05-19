@@ -32,7 +32,7 @@ El proyecto LaChocoMau es una aplicación web diseñada para diversos propósito
 - **Empresa Fundada**: 
 
 
-## Imagenes
+## Imágenes
 
 ![imagen](https://github.com/Organizacion-Novaverso/Lachocomau/assets/95386670/897cf726-92ec-4452-bdd1-e6f15bd90d79)
 
