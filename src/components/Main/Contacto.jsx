@@ -41,11 +41,13 @@ export default function Contacto() {
       <Separacion fillColor="#FAC4C4" />
 
       <section id="contacto" className="text-gray-600 body-font relative ">
-        <h1 className="text-neutral-50 text-4xl pt-10 font-medium title-font text-center font-bold">
+        <h1 className="text-neutral-50 text-4xl pt-10  title-font text-center font-bold">
           Contáctanos
         </h1>
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-1/2 md:w-1/2 overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative hidden md:block">
+
+        <div className="lg:w-1/2 md:w-1/2 overflow-hidden sm:mr-10 p-10 items-end justify-start relative hidden md:flex">
+          {/* <div className="lg:w-1/2 md:w-1/2 overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative hidden md:block"> */}
             <img
               className="object-cover object-center w-1/1 h-full rounded-3xl"
               src="https://images.hola.com/imagenes/estar-bien/20190617143878/tipos-chocolate-cuanto-engordan-cs/0-690-657/tipos-chocolate-t.jpg?tx=w_1200"
