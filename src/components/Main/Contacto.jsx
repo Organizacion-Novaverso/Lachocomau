@@ -1,28 +1,53 @@
-import React from "react";
-import Separacion from "./Separacion"
+// import React from "react";
+// import React, { useEffect } from "react";
+// import Separacion from "./Separacion"
+
+// import smoothscroll from 'smoothscroll-polyfill';
+
+import React, { useEffect } from "react";
+import Separacion from "./Separacion";
+import SmoothScroll from "smooth-scroll";
+import smoothscroll from "smoothscroll-polyfill";
 
 export default function Contacto() {
- 
+  useEffect(() => {
+    // Inicializar smoothscroll
+    smoothscroll.polyfill();
 
-// Realizar validación formulario con js
+    // Crear una instancia de SmoothScroll y configurar el desplazamiento suave
+    const scroll = new SmoothScroll('a[href*="#"]');
+  }, []);
+
+  // Función para manejar el clic en el enlace
+  const handleClick = (event) => {
+    event.preventDefault();
+    const href = event.target.getAttribute("href");
+    const offsetTop = document.querySelector(href).offsetTop;
+
+    window.scroll({
+      top: offsetTop,
+      behavior: "smooth", // Utiliza el comportamiento de desplazamiento suave
+      duration: 1000, // Duración de la animación en milisegundos
+    });
+  };
+  // Realizar validación formulario con js
 
   return (
-
-// Se crea un div y se poner el color de fondo
+    // Se crea un div y se poner el color de fondo
 
     <div className="bg-[#372418]">
+      {/* Llama a el componente Separacion */}
 
-{/* Llama a el componente Separacion */}
+      <Separacion fillColor="#FAC4C4" />
 
-
-<Separacion fillColor="#FAC4C4" />
-
-      <section className="text-gray-600 body-font relative ">
-        <h1 className="text-neutral-50 text-4xl pt-10 font-medium title-font text-center font-bold">
+      <section id="contacto" className="text-gray-600 body-font relative ">
+        <h1 className="text-neutral-50 text-4xl pt-10  title-font text-center font-bold">
           Contáctanos
         </h1>
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div className="lg:w-1/2 md:w-1/2 overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative hidden md:block">
+
+        <div className="lg:w-1/2 md:w-1/2 overflow-hidden sm:mr-10 p-10 items-end justify-start relative hidden md:flex">
+          {/* <div className="lg:w-1/2 md:w-1/2 overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative hidden md:block"> */}
             <img
               className="object-cover object-center w-1/1 h-full rounded-3xl"
               src="https://images.hola.com/imagenes/estar-bien/20190617143878/tipos-chocolate-cuanto-engordan-cs/0-690-657/tipos-chocolate-t.jpg?tx=w_1200"
@@ -86,14 +111,15 @@ export default function Contacto() {
                 name="Motivo"
                 placeholder="Motivo"
                 required
+                defaultValue="" // Aquí establece el valor predeterminado del select
                 className="rounded-3xl w-full bg-white border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 style={{
-                  // paddingTop: "0.5rem",
                   boxShadow: "inset 0 2px 5px rgba(0, 0, 0, 0.2)",
                 }}
               >
-               
-                <option selected="true" disabled="disabled">Motivo</option>
+                <option value="" disabled>
+                  Motivo
+                </option>
                 <option value="1" className="text-[#372418]">
                   Felicitaciones
                 </option>
@@ -104,14 +130,7 @@ export default function Contacto() {
                   Reclamo
                 </option>
               </select>
-
-
-
-
-
             </div>
-
-
 
             <div className="relative mb-4">
               <label
