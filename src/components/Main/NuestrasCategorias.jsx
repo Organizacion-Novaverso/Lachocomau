@@ -29,7 +29,7 @@ export default function NuestrasCategorias() {
       <div className='flex flex-col items-center justify-center min-h-screen bg-[#FAC4C4]'>
         <div className='text-3xl font-bold mb-4 text-brown'>Nuestras</div>
         <div className='text-5xl font-bold mb-8 text-white drop-shadow-[2px_3px_var(--tw-shadow-color)] shadow-pinkShadow'>Categorias</div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3 justify-center mb-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3 justify-center mb-8">
           {selectedImages.map((image, index) => (
             <div key={index}>
               <figure className="relative w-48 h-48 md:w-64 md:h-64 lg:w-64 lg:h-64 xl:w-64 xl:h-64 rounded-lg overflow-hidden">
