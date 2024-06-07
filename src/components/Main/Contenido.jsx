@@ -2,21 +2,9 @@
 function Contenido() {
   return (
    <div>
-    <section id="inicio"> 
-    <h1 className="text-6xl text-red-700">La Chocomau contenido inicial</h1>
+    <section id="inicio" className="pt-5"> 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <h1 className="pt-12 pb-20 text-6xl text-red-700 text-center">La Chocomau</h1>
 
 
     </section>
