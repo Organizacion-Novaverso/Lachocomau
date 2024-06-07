@@ -83,8 +83,10 @@ export default function Información() {
   return (
     <div>
       <header className="bg-[#372418] ">
+
+      {/* <nav class="navbar fixed top-0 left-0 right-0 z-50 bg-white w-full shadow-lg"> */}
         <nav
-          className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+          className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 fixed top-0 left-0 right-0 z-50 bg-[#372418] w-full shadow-lg"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
@@ -166,14 +168,18 @@ export default function Información() {
               </Transition>
             </Popover>
 
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <a href="#inicio" className="text-sm font-semibold leading-6 text-white">
               Inicio
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <a href="#productos" className="text-sm font-semibold leading-6 text-white">
               Productos
             </a>
 
-          
+            <a href="#categorias" className="text-sm font-semibold leading-6 text-white">
+              Categorias
+            </a>
+
+
 
             <a
               href="#contacto"
@@ -182,9 +188,7 @@ export default function Información() {
               Contacto
             </a>
 
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Información
-            </a>
+
           </PopoverGroup>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
@@ -248,18 +252,27 @@ export default function Información() {
                   </Disclosure>
 
                   <a
-                    href="#"
+                    href="#inicio"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#FAC4C4] hover:text-black"
                   >
                     Inicio
                   </a>
 
                   <a
-                    href="#"
+                    href="#productos"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#FAC4C4] hover:text-black"
                   >
                     Productos
                   </a>
+
+                  <a
+                    href="#categorias"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#FAC4C4] hover:text-black"
+                  >
+                    Categorias
+                  </a>
+
+
                   <a
                     href="#contacto"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#FAC4C4] hover:text-black"
@@ -269,12 +282,7 @@ export default function Información() {
 
 
                   
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-[#FAC4C4] hover:text-black"
-                  >
-                    Información
-                  </a>
+          
                 </div>
                
               </div>
