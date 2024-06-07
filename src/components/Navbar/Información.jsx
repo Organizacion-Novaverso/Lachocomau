@@ -92,7 +92,7 @@ export default function Información() {
         > */}
 
         <nav
-          className="h- mx-auto flex  items-center justify-between p-3 lg:px-8 fixed top-0 left-0 right-0 z-50 bg-[#372418] w-full shadow-lg"
+          className="mx-auto flex  items-center justify-between p-3 lg:px-8 fixed top-0 left-0 right-0 z-50 bg-[#372418] w-full shadow-lg"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
