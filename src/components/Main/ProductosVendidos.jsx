@@ -5,7 +5,7 @@ import Cupcakes from "../../../src/assets/Foto cupcake.png"
 
 export default function ProductosVendidos() {
   return (
-    <div className="bg-[#EEEDED] p-8">
+    <div className="bg-[#EEEDED] p-8" id="productos">
       <h3 className="text-center text-4xl font-bold	">Productos</h3>
       <h2 className="text-center text-6xl	text-[#F78A8B] font-bold pb-6">Más vendidos</h2>
 

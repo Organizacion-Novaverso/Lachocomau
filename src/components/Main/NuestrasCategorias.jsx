@@ -24,9 +24,9 @@ export default function NuestrasCategorias() {
   };
 
   return (
-    <div className='bg-[#FAC4C4]'>
+    <div className='bg-[#FAC4C4]'id='categorias'>
       <Separacion fillColor="#EEEDED" />
-      <div className='flex flex-col items-center justify-center min-h-screen bg-[#FAC4C4]'>
+      <div className='flex flex-col items-center justify-center min-h-screen bg-[#FAC4C4]' >
         <div className='text-3xl font-bold mb-4 text-brown'>Nuestras</div>
         <div className='text-5xl font-bold mb-8 text-white drop-shadow-[2px_3px_var(--tw-shadow-color)] shadow-pinkShadow'>Categorias</div>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3 justify-center mb-8">

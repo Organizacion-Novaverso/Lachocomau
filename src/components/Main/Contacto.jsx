@@ -33,14 +33,16 @@ export default function Contacto() {
   // Realizar validación formulario con js
 
   return (
+
+   
     // Se crea un div y se poner el color de fondo
 
-    <div className="bg-[#372418]">
+    <div className="bg-[#372418]"id="contacto">
       {/* Llama a el componente Separacion */}
 
       <Separacion fillColor="#FAC4C4" />
 
-      <section id="contacto" className="text-gray-600 body-font relative ">
+      <section  className="text-gray-600 body-font relative ">
         <h1 className="text-neutral-50 text-4xl pt-10  title-font text-center font-bold">
           Contáctanos
         </h1>
