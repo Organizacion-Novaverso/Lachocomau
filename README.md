@@ -2,8 +2,7 @@
 # Proyecto LaChocoMau
 
 ## Descripción
-
-El proyecto LaChocoMau es una aplicación web diseñada para diversos propósitos en línea. Con un conjunto variado de características, está destinado a satisfacer las necesidades de diferentes usuarios en el ámbito digital.
+El proyecto LaChocoMau presenta soluciones web para microempresas de repostería, desarrolladas con React y Tailwind. Destaca por adaptar tecnologías modernas a las necesidades comerciales específicas del sector, optimizando la experiencia del usuario y funciones clave para la gestión de pedidos. 
 
 ## Detalles Técnicos
 
