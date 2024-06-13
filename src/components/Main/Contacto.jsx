@@ -37,7 +37,7 @@ export default function Contacto() {
    
     // Se crea un div y se poner el color de fondo
 
-    <div className="bg-[#372418]"id="contacto">
+    <div className="bg-[#372418] pb-5"id="contacto">
       {/* Llama a el componente Separacion */}
 
       <Separacion fillColor="#FAC4C4" />
