@@ -1,37 +1,35 @@
+# Project LaChocoMau
 
-# Proyecto LaChocoMau
+## Description
+Project LaChocoMau offers web solutions for small bakery businesses, developed using React and Tailwind. It stands out for adapting modern technologies to specific commercial needs in the sector, optimizing user experience and key functions for order management.
 
-## Descripción
-El proyecto LaChocoMau presenta soluciones web para microempresas de repostería, desarrolladas con React y Tailwind. Destaca por adaptar tecnologías modernas a las necesidades comerciales específicas del sector, optimizando la experiencia del usuario y funciones clave para la gestión de pedidos. 
-
-## Detalles Técnicos
+## Technical Details
 
 - **URL**: [https://lachocomau.vercel.app](https://lachocomau.vercel.app)
-- **Tecnologías Utilizadas**: 
-  - **HSTS**: 
-  - **HTTP/2**: 
-  - **Vite**:
-  - **React**: 
-  - **Vercel**: 
-  - **Tailwind CSS**: 
+- **Technologies Used**: 
+  - HSTS
+  - HTTP/2
+  - Vite
+  - React
+  - Vercel
+  - Tailwind CSS
 
-## Licencia
+## License
 
 - **Copyright**: 
-- **Año de Copyright*2024*: 
+- **Copyright Year**: 2024
 - **Responsive**: 
 
-## Información Adicional
+## Additional Information
 
+- **About**: 
+- **Locations**: 
+- **Company Size**: 
+- **Company Type**: 
+- **Founded**: 
 
-- **Acerca de**: 
-- **Ubicaciones**: 
-- **Tamaño de la Empresa**: 
-- **Tipo de Empresa**: 
-- **Empresa Fundada**: 
+## Images
 
-
-## Imágenes
 
 ![imagen](https://github.com/Organizacion-Novaverso/Lachocomau/assets/95386670/897cf726-92ec-4452-bdd1-e6f15bd90d79)
 
