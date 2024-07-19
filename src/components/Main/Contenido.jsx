@@ -45,7 +45,7 @@ function Contenido() {
                 <h1 className="text-8xl font-extrabold text-brown text-center flex items-center text-stroke-white ">
                   La
                   <img
-                    src="/public/img/Lachocomau.png"
+                    src="/img/Lachocomau.png"
                     alt="La Chocomau"
                     className=""
                   />
