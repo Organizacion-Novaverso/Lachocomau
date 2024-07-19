@@ -1,18 +1,30 @@
 import Separacion from "./Separacion";
 
 function Bienvenido() {
+  
   return (
     <div className='bg-[#FAC4C4]'>
       <Separacion fillColor="#EEEDED" />
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#FAC4C4]">
         <div className="text-center">
-          <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-white">¡Bienvenidos!</h1>
+        <h1
+  className="title-font sm:text-6xl text-3xl mb-4 font-medium text-white"
+  style={{
+    fontFamily: 'Lilita One, cursive',
+    WebkitTextStroke: '1.5px grey',
+  
+  }}
+>
+  ¡Bienvenidos!
+</h1>
+
+          {/* <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-white">¡Bienvenidos!</h1> */}
         
         </div>
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div className="lg:flex-grow md:w-1/2 lg:pr-16 md:pr-24 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-950"style={{ fontFamily: 'Lilita One, cursive' }}>
                 Dulzura con historia
               </h2>
               <p className="mb-8 leading-relaxed">
