@@ -1,6 +1,6 @@
 import Separacion from "./Separacion"
 import { FaWhatsapp, FaFacebookF, FaInstagram } from 'react-icons/fa';
-
+//hola
 function Contenido() {
   return (
     <>
