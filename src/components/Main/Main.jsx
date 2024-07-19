@@ -3,14 +3,14 @@ import ProductosVendidos from "./ProductosVendidos"
 import NuestrasCategorias from "./NuestrasCategorias"
 //import NuestrasCategorias2 from "./NuestrasCategorias2"
 import Contacto from "./Contacto"
-
+import Contenido from "./Contenido"
 
 function Main() {
   return (
     <>
-      <h1 className="text-6xl text-red-700">La Chocomau</h1>
+     
    
-   
+   <Contenido/>
    <Bienvenido />
    <ProductosVendidos/>
    <NuestrasCategorias/>
