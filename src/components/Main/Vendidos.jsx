@@ -6,7 +6,7 @@ function Vendidos({ image, title, description, price }) {
   return (
     <>
       <div
-        className={`grid grid-cols-1 md:grid-cols-12 items-center rounded-3xl text-center md:text-left w-11/12 md:max-w-screen-lg mx-auto cursor-default ${isHovered ? 'bg-[#F78A8B] text-[#372418]' : 'bg-[#372418] text-white'}`}
+        className={`grid grid-cols-1 md:grid-cols-12 items-center rounded-3xl text-center md:text-left w-11/12 md:max-w-screen-lg mx-auto cursor-default ${isHovered ? 'bg-[#F78A8B] text-[#372418]' : 'bg-[#372418] text-white'} hover:duration-700 duration-700	`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
