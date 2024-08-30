@@ -7,10 +7,7 @@ function Contenido() {
       <div className="pt-12 relative bg-[#EEEDED]">
 
 
-        <div className="relative bg-[#EEEDED]">
-
-
-          <div className="absolute top-4 right-4  flex space-x-6">
+<div className="relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/img/FondoActualizado.png)' }}>          <div className="absolute top-4 right-4  flex space-x-6">
             <a
               href="https://wa.me/"
               className="bg-brown hover:bg-pinkShadow text-white rounded-full p-4"
