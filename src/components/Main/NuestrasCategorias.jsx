@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Separacion from "./Separacion";
 
 export default function NuestrasCategorias() {
-  const imageList = Array.from({ length: 12 }, (_, i) => `img/imagen${i + 1}.png`);
+  const imageList = Array.from({ length: 12 }, (_, i) => `img/imgForm/imagen${i + 1}.png`);
   const [startIndex, setStartIndex] = useState(0);
   const [isFirstPage, setIsFirstPage] = useState(true);
   const [nombreCategoria] = useState(["Bombones", "Tortas", "Cupcakes", "Galletas", "Alfajores", "Chocolates", "Mini donas", "Waffles", "Masas dulces", "Cajas mixtas", "Candy bar", "Personalizados"]);
