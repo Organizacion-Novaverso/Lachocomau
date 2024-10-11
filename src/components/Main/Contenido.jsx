@@ -16,14 +16,14 @@ function Contenido() {
               <FaWhatsapp className="text-2xl" />
             </a>
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/lachocomau.choco/"
               className="bg-brown hover:bg-pinkShadow text-white rounded-full p-4"
               aria-label="Facebook"
             >
               <FaFacebookF className="text-2xl" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/la_chocomau/"
               className="bg-brown hover:bg-pinkShadow text-white rounded-full p-4"
               aria-label="Instagram"
             >
