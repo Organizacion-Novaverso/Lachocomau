@@ -39,7 +39,7 @@ function Contenido() {
 
 
               <div className="flex items-center justify-center pt-24">
-                <h1 className="text-6xl font-extrabold text-brown text-center flex items-center text-stroke-white ">
+                <h1 className="text-7xl font-extrabold text-brown text-center flex items-center ">
                   La
                   <img
                     src="/img/Lachocomau.png"
@@ -48,8 +48,7 @@ function Contenido() {
                   />
                 </h1>
               </div>
-              <h2 className=" text-6xl text-brown text-center pb-24 font-extrabold text-stroke-white">Chocomau</h2>
-
+              <h2 className=" text-7xl text-brown text-center pb-24 font-extrabold">Chocomau</h2>
 
 
             </section>
