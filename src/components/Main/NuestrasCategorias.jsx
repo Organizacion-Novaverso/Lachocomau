@@ -32,7 +32,7 @@ export default function NuestrasCategorias() {
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-3 justify-center mb-8">
           {selectedImages.map((image, index) => (
             <div key={index}>
-              <figure className="relative w-48 h-48 md:w-64 md:h-64 lg:w-64 lg:h-64 xl:w-64 xl:h-64 rounded-lg overflow-hidden">
+              <figure className="relative w-45 h-48 md:w-64 md:h-64 lg:w-64 lg:h-64 xl:w-64 xl:h-64 rounded-lg overflow-hidden">
                 <img
                   src={`./${image}`}
                   alt={`Imagen ${index + 1}`}
