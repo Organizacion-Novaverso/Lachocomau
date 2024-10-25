@@ -44,7 +44,7 @@ function Contenido() {
                   />
                 </h1>
               </div>
-              <h2 className=" text-6xl text-brown text-center pb-24 font-extrabold">
+              <h2 className=" text-5xl text-brown text-center pb-24 font-extrabold">
                 La Chocomau
               </h2>
 
