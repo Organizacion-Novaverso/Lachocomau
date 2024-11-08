@@ -59,7 +59,7 @@ export default function Contacto() {
 
           <form
             className="lg:w-1/3 md:w-1/2 bg-[#372418] flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
-            action="URL_DE_DESTINO_DEL_FORMULARIO"
+            action="https://servidor-correo-chocomau.vercel.app/send" // URL de destino
             method="POST"
           >
             <div className="relative mb-4 ">
