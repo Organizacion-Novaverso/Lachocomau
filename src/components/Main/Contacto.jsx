@@ -54,6 +54,7 @@ export default function Contacto() {
       .then((response) => response.json())
       .then((data) => {
         setFormStatus("¡Mensaje enviado correctamente!");
+        event.target.reset(); // Limpiar los campos del formulario
       })
       .catch((error) => {
         setFormStatus("Hubo un error. Intenta de nuevo.");
